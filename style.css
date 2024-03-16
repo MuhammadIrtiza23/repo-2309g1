@@ -1,4 +1,32 @@
-h1{
-    color: blueviolet;
-    font-size:  5vmax;
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    margin: 0%;
+}
+.div-items{
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   justify-content: center;
+   align-items: left;
+  color: aliceblue;
+}
+
+.div-items:nth-child(2){
+    background-image: url(./pexels-sam-rankin-1795985.jpg);
+    background-size: cover;
+    
+}
+
+button{
+    width: 7em;
+    height: 2.5em;
+    border-radius: 45px;
 }
